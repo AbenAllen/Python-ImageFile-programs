@@ -6,5 +6,9 @@
 2.ImageMoveManager:根据制定文件夹中的txt文件的图片文件名复制文件到新的文件夹下(new_img_folder)
 
 3.文件夹里的文件放置规范:
+
 txt文件命名为:item_ref.txt
+
 item_ref.txt文件要放在指定文件夹一级目录下
+
+例如:文件夹:img+txt
