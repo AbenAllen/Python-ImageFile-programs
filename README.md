@@ -11,4 +11,4 @@ txt文件命名为:item_ref.txt
 
 item_ref.txt文件要放在指定文件夹一级目录下
 
-例如:文件夹:img+txt
+例如:可以下载img+txt.zip来查看文件夹目录格式
