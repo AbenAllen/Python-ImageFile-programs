@@ -22,6 +22,7 @@ f = open(file_abs,'r')
 # print f.read()
 for line in f.readlines():
     line = line.strip('\n')
+    line = line.strip('\r')
     text_list.append(line)
 f.close()
 
@@ -34,7 +35,7 @@ for str in text_list:
     if str not in file_list:
         create_list.append(str)
 
-        with open(file_write,'w') as f:
+        with open(file_write,'a') as f:
             f.write(str+'\n')
 
 
